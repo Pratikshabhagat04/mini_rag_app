@@ -1,0 +1,58 @@
+COMPANY PROFILE: NimbusCart Technologies Pvt. Ltd.
+
+Overview
+NimbusCart Technologies Pvt. Ltd. is a mid-sized e-commerce technology company
+founded in 2016 and headquartered in Pune, India. The company builds a
+white-label online storefront platform used by small and medium retailers
+across South Asia. As of the last internal report, NimbusCart employs 214
+people across four offices: Pune (engineering HQ), Bengaluru (data science),
+Mumbai (sales), and a small remote-first support team spread across Tier-2
+cities.
+
+Product Line
+The core product is "CartOS", a modular storefront builder that lets a
+merchant launch a fully functional online store in under an hour. CartOS is
+organized into three tiers:
+
+1. Starter Tier - Free for merchants with under 100 monthly orders. Includes
+   a storefront theme editor, basic inventory tracking, and manual payment
+   reconciliation.
+2. Growth Tier - Priced at INR 2,499 per month. Adds automated payment
+   gateway integration (Razorpay and PayU), abandoned-cart email recovery,
+   and a basic analytics dashboard.
+3. Scale Tier - Priced at INR 8,999 per month. Adds multi-warehouse
+   inventory sync, a recommendation engine, and dedicated account support.
+
+Founding Team
+NimbusCart was founded by three co-founders: Ritika Deshmukh (CEO, previously
+a product manager at an unnamed logistics startup), Aman Verma (CTO,
+background in distributed systems), and Farah Sheikh (COO, background in
+retail operations). The company raised a seed round of USD 1.2 million in
+2017 from a consortium of angel investors, followed by a Series A of USD 6.5
+million in 2019 led by a Mumbai-based venture fund.
+
+Engineering Practices
+The engineering team follows a two-week sprint cycle. All production
+deployments require passing an automated test suite and a manual review from
+at least one senior engineer. The backend is written primarily in Python
+using FastAPI, with a PostgreSQL primary database and Redis for caching and
+session storage. The frontend storefront themes are rendered using a custom
+templating engine written in TypeScript. NimbusCart migrated its
+infrastructure from a single-region deployment to a multi-region deployment
+on AWS (Mumbai and Singapore regions) in early 2022 to reduce latency for
+customers in Southeast Asia.
+
+Customer Support Policy
+NimbusCart offers email support to all tiers with a target first-response
+time of 24 hours on the Starter tier, 8 hours on the Growth tier, and 2 hours
+on the Scale tier. Phone support is available only to Scale tier customers,
+Monday through Saturday, 9 AM to 7 PM IST. There is no support available on
+public holidays observed in Maharashtra.
+
+Known Limitations (as of the last report)
+CartOS does not yet support multi-currency checkout, which has been the
+single most requested feature from merchants selling to international
+customers. There is also no native mobile app for merchants; store
+management is currently web-only, accessible through a responsive browser
+interface. A dedicated Android management app is listed as "under
+exploration" but has no committed release timeline.
